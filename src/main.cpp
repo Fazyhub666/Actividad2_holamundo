@@ -19,5 +19,8 @@ int main() {
     cout << "  Estudiante: [Benjamin Hlynczuk]   " << endl;
     cout << "=====================================================" << endl;
 
+    cout << "\nPresione ENTER para salir..." << endl;
+    cin.get(); // Espera a que el usuario presione ENTER antes de cerrar la ventana
+
     return 0; // Le indica al sistema operativo Windows 11 que el programa finalizo con exito (codigo 0)
 }
